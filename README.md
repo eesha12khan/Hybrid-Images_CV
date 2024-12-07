@@ -12,6 +12,27 @@ This repository contains a Python implementation for creating hybrid images, whe
   iv)  Visualization: Displays the generated images in Google Colab using cv2_imshow.
   
   v)   File Output: Saves the low-frequency, high-frequency, and hybrid images as .jpg files.
+
+  # Usage
+  
+1) Clone the repository or copy the code.
+
+2) Provide the paths to your images by replacing:
+
+boy_image_path = '/path/to/image1.png'  # Replace with the first image path
+
+girl_image_path = '/path/to/image2.png'  # Replace with the second image path
+
+3) Run the code in Google Colab or any Python environment with OpenCV installed.
+   
+4) The script will output:
+   
+low_freq_image.jpg
+
+high_freq_image.jpg
+
+hybrid_image.jpg
+
 # Requirements
 
 o Python 3.x
